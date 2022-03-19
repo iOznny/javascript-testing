@@ -10,12 +10,12 @@ function subtract(a, b) {
 // Sum
 let result = sum(2, 2);
 let response = 3;
+expected(response).toBe(result);
 
 // Subtract
 let result_subtract = subtract(10, 5);
 let response_subtract = 5;
-
-
+expected(response_subtract).toBe(result_subtract);
 
 function expected(response) {
     return {
