@@ -1,1 +1,1 @@
-test('should Hello World', () => { second })
+test('should Hello World');
