@@ -1,0 +1,22 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "Learning Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iOznny/javascript-testing.git"
+  },
+  "author": "Cesar Candia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iOznny/javascript-testing/issues"
+  },
+  "homepage": "https://github.com/iOznny/javascript-testing#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
