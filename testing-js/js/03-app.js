@@ -31,7 +31,6 @@ testing('Sum 10 + 20 = 30', async () => {
 });
 
 
-
 async function testing(message, callback) {
     try {
         await callback();
