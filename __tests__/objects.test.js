@@ -1,5 +1,4 @@
 // Testing with Objects
-
 const client = {
     name: 'Testing',
     balance: 500
