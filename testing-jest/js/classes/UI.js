@@ -2,9 +2,7 @@ import { eliminarCita, cargarEdicion } from '../funciones.js';
 import { contenedorCitas, heading } from '../selectores.js';
 
 class UI {
-    constructor({citas}) {
-        this.textoHeading(citas);
-    }
+    constructor({citas}) {}
 
     imprimirAlerta(mensaje, tipo) {
         // Crea el div
@@ -86,14 +84,6 @@ class UI {
 
             contenedorCitas.appendChild(divCita);
         });    
-    }
-
-    textoHeading(citas) {
-        if(citas.length > 0 ) {
-            heading.textContent = 'Administra tus Citas '
-        } else {
-            heading.textContent = 'No hay Citas, comienza creando una'
-        }
     }
 
     limpiarHTML() {

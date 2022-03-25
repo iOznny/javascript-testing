@@ -3,7 +3,7 @@
 exports[`Testing Client Testing with Snapshot 1`] = `
 Object {
   "balance": 500,
-  "name": "Demos",
+  "name": "Demo",
   "type": "Premium",
 }
 `;
