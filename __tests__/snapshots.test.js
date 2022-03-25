@@ -1,5 +1,5 @@
 const client = {
-    name: 'Demos',
+    name: 'Demo',
     balance: 500,
     type: 'Premium'
 }
